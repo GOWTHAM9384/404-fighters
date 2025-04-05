@@ -1,0 +1,67 @@
+body{
+  background-image: url(https://thumbs.dreamstime.com/b/transparent-photoshop-psd-png-seamless-grid-pattern-background-transparent-photoshop-psd-png-seamless-grid-pattern-background-grey-175598426.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  
+}
+.box{
+  width: 25%;
+  padding: 10px 0px;
+  border-radius: 10px;
+  background-color: #5f6660;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box1{
+  width: 90%;
+  height: 60px;
+  background-color: #ccddcd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  margin-top: 20px;
+}
+.box1 h1{
+  padding: 0px 15px;
+}
+.btn{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:14px ;
+  padding: 20px 0px;
+}
+.btn button{
+  width: 20%;
+  height: 50px;
+  border-radius:10px ;
+  font-size: 25px;
+  font-weight: bolder;
+  border: none;
+}
+#yellow{
+  background-color: #ffb655;
+  color: white;
+}
+#yellow:hover{
+  background-color: #ff9100;
+  color: white;
+}
+.btn button:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
